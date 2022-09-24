@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Concert One', cursive;
+}
+
+body {
+ background: linear-gradient(rgb(143, 0, 255 
+), rgb(255, 0, 228));
+ height: 100%
+font-family: 'Acme', sans-serif;
+ margin: 0;
+ font-size: 25px;
+}
+
+.contenedor {
+	padding: 0px;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	background-color: #4165EA;
+	border: 8px dashed #41C3EA;
+}
+
+#player{
+	background-color: #900;
+	border: 4px dashed #b22;
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.3s;
+}
+
+.pointer {
+	background-color: black;
+	height: 50px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: white;
+	font-size: 23px;
+	text-align: center;
+	padding: 10px 0px
+}
+
+
+.alien{
+	position: relative;
+	display: inline-block;
+}
+
+.texto1{
+	font-family: 'Permanent Marker', cursive;
+	position: absolute;
+	top: 60px;
+	left: 570px;
+	font-size: 62px;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+button{
+  width: 300px;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  line-height: 35px;
+  border-radius: 100px;
+  border: 4px solid rgb(230,230,230);
+  font-size: 32px;
+  background-color: rgb(14, 52, 71);
+  color: white;
+}
+
+button:hover{
+	background-color: rgb(27, 93, 127);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	filter: saturate(180%);
+}
+.imagen {
+	filter: saturate(180%);
+}
+
+
+h2{
+	font-size: 3.7em;
+	font-family: 'Concert One', cursive;
+	color: white;
+	text-shadow: 0 8px 0 black;
+	text-align: center;
+ }
+
+ p{
+	font-family: 'Acme', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	color: rgb(219, 216, 225);
+	text-shadow: 0 1px 0 black;
+}
+
+.jin {
+  border: 11px dotted dimGray;
+}
